@@ -12,5 +12,11 @@ def main():
     for item in list_of_knapsack:
         print(item)
 
+    print("\n")
+
+    list_of_knapsack = knapsack_service.dynamic()
+    for item in list_of_knapsack:
+        print(item)
+
 if __name__ == "__main__":
     main()
